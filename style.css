@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+HTML{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Montserrat" ,sans-serif;
+}
+
+/*-------------------------------------header-------------------------------------------*/
+
+/* Header navbar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+}
+nav ul{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    color: hsl(243, 87%, 12%);
+}
+
+/* header section */
+
+header section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 1.7;
+}
+header section div{
+    width: 40%;
+}
+header section div h1{
+    font-weight: bold;
+    font-size: 2rem;
+}
+header section div p{
+    margin: 20px 0px;
+}
+.input-box{
+    padding: 11px;
+    width: 270px;
+    border-radius: 5px;
+    text-align: left;
+    border: 1px solid rgb(199, 208, 216);
+}
+.btn{
+    border-radius: 5px;
+    color: white;
+    padding: 11px 55px;
+    background-color: blue;
+    border: 1px solid blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+header section div button:hover{
+    background-color: rgb(3, 3, 237);
+} 
+.illustration{
+    width: 40%;
+}
+
+
+.upper-image{   
+    margin-top: 100px; 
+    width: 1515px;
+    max-width: 100%;
+}
+.section-3-below{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    padding-bottom: 70px;
+    background-color: rgb(248 , 248 , 254);
+    margin-top: -4.5px;
+}
+.section-3-text{
+    width: 37%;
+}
+.section-3-heading{
+    margin-bottom: 50px;
+}
+.section-3-heading h1{
+    margin-bottom: 27px ;
+}
+.section-3-heading p{
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+.link{
+    display: flex;
+}
+.section-3-heading a{
+    font-size: 14px;
+    text-decoration: none;
+    color: hsl(170, 45%, 43%);
+}
+.section-3-heading img{
+    width: 17px;
+}
+.section-3-heading hr{
+    height: 2.5px;
+    background-color: hsl(170, 45%, 43%);
+    margin-top: 5px;
+    width: 150px;
+}
+.section-3-text-box{
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    width: 350px;
+    max-width: 100%;
+    box-shadow:  5px 5px 18px #888888 ;
+}
+.section-3-text-box-para-1{
+    margin-top: 10px;
+    margin-left: 2.5px;
+}
+.avatar{
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 13px;
+}
+.avatar-box{
+    margin-top: 15px;
+    margin-left: -3.5px;
+    display: flex;
+    align-items: center;
+}
+.avatar-para-1{
+    font-weight: bolder;
+}
+.quote{
+    margin-left: 3px;
+}
+
+/* section-4 */
+
+.section-4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 110px 10px;
+    color: white;
+    background-color: hsl(238, 22%, 44%);
+}
+.section-4-text{
+    width: 32%;
+    max-width: 100%;
+}
+.section-4-text h1{
+    font-weight: bolder;
+}
+.section-4-text p{
+    margin-top: 18.5px;
+    font-size: 0.9rem;
+    line-height: 2;
+    color: rgb(233, 233, 244);
+}
+.section-4 input{
+    padding: 11px;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    max-width: 100%; 
+    margin-bottom: 10px;
+    border-radius: 0;
+}
+.section-4 input:focus{
+    outline: none;
+}
+.section-4 button{
+    padding: 11px 30px;
+    border-radius: 3px;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* section-5 */
+
+.section-5{
+    background-color: hsl(243, 87%, 12%);
+    color: rgb(236, 237, 247);
+    font-size: 15px;
+    padding: 75px 10px;
+}
+.container{
+    width: 900px;
+    max-width: 100%;
+    margin: auto;
+}
+.section-5-image{
+    width: 110px;
+}
+.section-5-below{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    max-width: 100%;
+    margin: 20px auto;
+}
+.section-5-below p{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.phone{
+    margin-bottom: 17px;
+}
+.fa{
+    border: 2px solid white;
+    padding: 12px 13px;
+    border-radius: 100%;
+    margin-right: 14px;
+    cursor: pointer;
+}
+.twitter{
+    padding: 12px 10px;
+}
+.insta{
+    padding: 12px 10px;
+}
+.fa:hover{
+    background-color: white;
+    color: hsl(243, 87%, 12%);
+}
+
+
+
+
+@media screen and (max-width : 700px) {
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        margin-top: 20px;
+    }
+    header section{
+        flex-direction: column-reverse;
+        padding: 30px;
+        text-align: center;
+    }
+    .illustration{
+        width: 70%;
+    }
+    /* header section img{
+        width: 80%;
+    } */
+    header section div{
+        width: 100%;
+    }
+    header section div h1{
+        margin-top: 80px;
+        font-size: 1.5rem;
+    }
+    header section div p{
+        font-size: 1rem;
+    }
+    .input-box{
+        display: block;
+        width: 100%;
+        margin: 10px auto;
+    }
+    .btn{
+        display: block;
+        margin: 10px;
+        width: 100%;
+        margin: auto;
+    }
+    .section-3-below{
+        flex-direction: column-reverse;
+    }
+    .section-3-text{
+        padding: 30px;
+        width: 100%;
+        margin-top: 100px;
+        text-align: center;
+    }
+    .section-3-heading{
+        width: 100%;
+    }
+    .link{
+        justify-content: center;
+    }
+    hr{
+        margin: auto;
+        position: relative;
+        right: 2px;
+    }
+    .section-3-text-box{
+        width: 100%;
+        margin: auto;
+        text-align: left;
+    }
+    .section-4{
+        flex-direction: column;
+    }
+    .section-4-text{
+        margin-bottom: 20px;
+        text-align: center;
+        width: 80%;
+    }
+    .section-4 input{
+        width: 100%;
+    }
+    .section-4 button{
+        display: inline-block;
+        width: 100%;
+    }
+    .section-5{
+        position: relative;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: left;
+    }
+    .section-5-image{
+        margin-left: 0%;
+        margin-bottom: 20px;
+    }
+    .container{
+        padding-left: 40px;
+    }
+    .section-5-below{
+        flex-direction: column;
+        width: 100%;
+    }
+    .section-5-child{
+        margin-bottom: 20px;
+    }
+    .email{
+        margin-bottom: 20px;
+    }
+}
+
+
+
